@@ -1,0 +1,51 @@
+2016-07-18 21:05:22  org.springframework.context.support.AbstractApplicationContext.prepareRefresh(AbstractApplicationContext.java:454)  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1d15445: startup date [Mon Jul 18 21:05:22 CST 2016]; root of context hierarchy
+2016-07-18 21:05:22  org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:315)  Loading XML bean definitions from file [C:\Users\Administrator\Workspaces\MyEclipse 8.5\jsp-xm-t\WebRoot\WEB-INF\classes\applicationContext.xml]
+2016-07-18 21:05:22  org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:537)  Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@995a79: defining beans [lunbotuService,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,LunbotuDAO,HQLDAO]; root of factory hierarchy
+2016-07-18 21:05:22  org.hibernate.cfg.Environment.<clinit>(Environment.java:560)  Hibernate 3.3.2.GA
+2016-07-18 21:05:22  org.hibernate.cfg.Environment.<clinit>(Environment.java:593)  hibernate.properties not found
+2016-07-18 21:05:22  org.hibernate.cfg.Environment.buildBytecodeProvider(Environment.java:771)  Bytecode provider name : javassist
+2016-07-18 21:05:22  org.hibernate.cfg.Environment.<clinit>(Environment.java:652)  using JDK 1.4 java.sql.Timestamp handling
+2016-07-18 21:05:22  org.hibernate.cfg.Configuration.configure(Configuration.java:1489)  configuring from url: file:/C:/Users/Administrator/Workspaces/MyEclipse%208.5/jsp-xm-t/WebRoot/WEB-INF/classes/hibernate.cfg.xml
+2016-07-18 21:05:22  org.hibernate.cfg.Configuration.addResource(Configuration.java:600)  Reading mappings from resource : com/pojo/Lunbotu.hbm.xml
+2016-07-18 21:05:22  org.hibernate.cfg.HbmBinder.bindRootPersistentClassCommonValues(HbmBinder.java:322)  Mapping class: com.pojo.Lunbotu -> lunbotu
+2016-07-18 21:05:22  org.hibernate.cfg.Configuration.doConfigure(Configuration.java:1589)  Configured SessionFactory: null
+2016-07-18 21:05:22  org.springframework.orm.hibernate3.LocalSessionFactoryBean.buildSessionFactory(LocalSessionFactoryBean.java:772)  Building new Hibernate SessionFactory
+2016-07-18 21:05:22  org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:64)  Using Hibernate built-in connection pool (not for production use!)
+2016-07-18 21:05:22  org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:65)  Hibernate connection pool size: 20
+2016-07-18 21:05:22  org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:68)  autocommit mode: false
+2016-07-18 21:05:22  org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:103)  using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/baixinshop
+2016-07-18 21:05:22  org.hibernate.connection.DriverManagerConnectionProvider.configure(DriverManagerConnectionProvider.java:109)  connection properties: {user=root, password=****}
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:114)  RDBMS: MySQL, version: 5.0.18-nt
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:115)  JDBC driver: MySQL-AB JDBC Driver, version: mysql-connector-java-5.0.0-beta ( $Date: 2005-11-17 16:14:47 +0100 (Thu, 17 Nov 2005) $, $Revision$ )
+2016-07-18 21:05:22  org.hibernate.dialect.Dialect.<init>(Dialect.java:175)  Using dialect: org.hibernate.dialect.MySQLDialect
+2016-07-18 21:05:22  org.hibernate.transaction.TransactionFactoryFactory.buildTransactionFactory(TransactionFactoryFactory.java:62)  Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+2016-07-18 21:05:22  org.hibernate.transaction.TransactionManagerLookupFactory.getTransactionManagerLookup(TransactionManagerLookupFactory.java:80)  No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:161)  Automatic flush during beforeCompletion(): disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:165)  Automatic session close at end of transaction: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:172)  JDBC batch size: 15
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:175)  JDBC batch updates for versioned data: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:180)  Scrollable result sets: enabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:188)  JDBC3 getGeneratedKeys(): enabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:196)  Connection release mode: auto
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:220)  Maximum outer join fetch depth: 2
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:223)  Default batch fetch size: 1
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:227)  Generate SQL with comments: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:231)  Order SQL updates by primary key: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:235)  Order SQL inserts for batching: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.createQueryTranslatorFactory(SettingsFactory.java:397)  Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+2016-07-18 21:05:22  org.hibernate.hql.ast.ASTQueryTranslatorFactory.<init>(ASTQueryTranslatorFactory.java:47)  Using ASTQueryTranslatorFactory
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:243)  Query language substitutions: {}
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:248)  JPA-QL strict compliance: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:253)  Second-level cache: enabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:257)  Query cache: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.createRegionFactory(SettingsFactory.java:382)  Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:267)  Optimize cache for minimal puts: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:276)  Structured second-level cache entries: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:305)  Statistics: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:309)  Deleted entity synthetic identifier rollback: disabled
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:324)  Default entity-mode: pojo
+2016-07-18 21:05:22  org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:328)  Named query checking : enabled
+2016-07-18 21:05:22  org.hibernate.impl.SessionFactoryImpl.<init>(SessionFactoryImpl.java:193)  building session factory
+2016-07-18 21:05:22  org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:105)  Not binding factory to JNDI, no JNDI name configured
+2016-07-18 21:05:22  com.mchange.v2.log.MLog.<clinit>(MLog.java:80)  MLog clients using log4j logging.
+2016-07-18 21:05:23  com.mchange.v2.c3p0.C3P0Registry.banner(C3P0Registry.java:204)  Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]

@@ -1,0 +1,217 @@
+9
+
+dir
+0
+https://42.51.27.19:8443/svn/sunjob/baixinshop/WebRoot/ckeditor/samples/old
+https://42.51.27.19:8443/svn/sunjob
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+72ac9b52-b10b-504c-82e8-3c533b881127
+
+inlinetextarea.html
+file
+
+
+
+add
+
+uicolor.html
+file
+
+
+
+add
+
+sample_posteddata.php
+file
+
+
+
+add
+
+readonly.html
+file
+
+
+
+add
+
+xhtmlstyle.html
+file
+
+
+
+add
+
+datafiltering.html
+file
+
+
+
+add
+
+divreplace.html
+file
+
+
+
+add
+
+jquery.html
+file
+
+
+
+add
+
+ajax.html
+file
+
+
+
+add
+
+enterkey
+dir
+
+
+
+add
+
+magicline
+dir
+
+
+
+add
+
+sample.js
+file
+
+
+
+add
+
+dialog
+dir
+
+
+
+add
+
+replacebyclass.html
+file
+
+
+
+add
+
+htmlwriter
+dir
+
+
+
+add
+
+tabindex.html
+file
+
+
+
+add
+
+assets
+dir
+
+
+
+add
+
+toolbar
+dir
+
+
+
+add
+
+replacebycode.html
+file
+
+
+
+add
+
+inlinebycode.html
+file
+
+
+
+add
+
+uilanguages.html
+file
+
+
+
+add
+
+sample.css
+file
+
+
+
+add
+
+index.html
+file
+
+
+
+add
+
+inlineall.html
+file
+
+
+
+add
+
+wysiwygarea
+dir
+
+
+
+add
+
+api.html
+file
+
+
+
+add
+
+appendto.html
+file
+
+
+
+add
+

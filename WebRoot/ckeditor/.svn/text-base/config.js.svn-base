@@ -1,0 +1,47 @@
+/**
+ * @license Copyright (c) 2003-2015, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or http://ckeditor.com/license
+ */
+
+CKEDITOR.editorConfig = function( config ) {
+	var strFullPath = window.document.location.href;
+	var strPath = window.document.location.pathname;
+	var pos = strFullPath.indexOf(strPath);
+	var prePath = strFullPath.substring(0, pos);
+	var postPath = strPath.substring(0, strPath.substr(1).indexOf('/') + 1);
+		
+	config.language = 'zh-cn';
+	config.filebrowserBrowseUrl = postPath+'/ckeditor/uploader/browse.jsp';
+	config.filebrowserImageBrowseUrl =postPath+ '/ckeditor/uploader/browse.jsp?type=Images';
+	config.filebrowserFlashBrowseUrl = postPath+'/ckeditor/uploader/browse.jsp?type=Flashs';
+	config.filebrowserUploadUrl = postPath+'/ckeditor/uploader/upload.jsp';
+	config.filebrowserImageUploadUrl = postPath+'/ckeditor/uploader/upload.jsp?type=Images';
+	config.filebrowserFlashUploadUrl = postPath+'/ckeditor/uploader/upload.jsp?type=Flashs';
+	config.filebrowserWindowWidth = '300';
+	config.filebrowserWindowHeight = '200';
+	config.toolbar_A =
+		[
+			[
+			 'Undo','Redo',
+			 'Cut','Copy','Paste','PasteFromWord', 
+		     'JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock',
+			'Bold','Italic','Underline','Strike',
+			'Link',
+			'Image',
+			'FontSize',
+			'TextColor','BGColor'
+			
+			]
+		];
+	config.toolbar = 'A'; 
+
+	// Remove some buttons provided by the standard plugins, which are
+	// not needed in the Standard(s) toolbar.
+	config.removeButtons = 'Underline,Subscript,Superscript';
+
+	// Set the most common block elements.
+	config.format_tags = 'p;h1;h2;h3;pre';
+
+	// Simplify the dialog windows.
+	config.removeDialogTabs = 'image:advanced;link:advanced';
+};
