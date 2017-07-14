@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%
@@ -129,7 +129,7 @@ http://www.cssmoban.com/tm-488-classic
 
 				<p class="m-b-0">去留无意，漫随天外云卷云舒。</p>
 
-				<a href="#" class="tm-btn tm-margin-t-small">求offer</a> </section>
+				 </section>
 
 
 			</div>
@@ -145,18 +145,18 @@ http://www.cssmoban.com/tm-488-classic
 							<img
 								src="${pageContext.request.contextPath}/img/tm-img-310x180-1.jpg"
 								alt="Image" class="tm-margin-b-20 img-fluid" />
-							<h4 class="tm-margin-b-20 tm-gold-text">再次推荐我自己</h4>
-							<p class="tm-margin-b-20 tm-p-small">真的很喜欢编程，请再看看我的简历吧。。</p>
-							<a href="${pageContext.request.contextPath}/jsp/resume.jsp" target="_blank" class="tm-btn text-uppercase">简历</a>
+							<h4 class="tm-margin-b-20 tm-gold-text">Map中的排序</h4>
+							<p class="tm-margin-b-20 tm-p-small">按key排序，按value排序</p>
+							<a href="http://blog.tanpeng.net/2017/07/02/mapSortByKey-Value/" target="_blank" class="tm-btn text-uppercase">查看详情</a>
 						</div>
 
 						<div class="tm-content-box tm-margin-t-mid tm-content-box-contact">
 							<img
 								src="${pageContext.request.contextPath}/img/tm-img-310x180-2.jpg"
 								alt="Image" class="tm-margin-b-20 img-fluid" />
-							<h4 class="tm-margin-b-20 tm-gold-text">广告位招租</h4>
-							<p class="tm-margin-b-20 tm-p-small">哈哈哈，生活就是应该多一点段子。</p>
-							<a href="#" class="tm-btn text-uppercase">更多</a>
+							<h4 class="tm-margin-b-20 tm-gold-text">强大的compute方法</h4>
+							<p class="tm-margin-b-20 tm-p-small">线程安全</p>
+							<a href="http://blog.tanpeng.net/2017/07/13/map-compute/" class="tm-btn text-uppercase">查看详情</a>
 						</div>
 
 					</div>

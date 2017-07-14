@@ -1,4 +1,4 @@
-﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%
@@ -43,7 +43,7 @@ http://www.cssmoban.com/tm-488-classic
 	<div class="tm-header">
 		<div class="container-fluid">
 			<div class="tm-header-inner">
-				<a href="${pageContext.request.contextPath}/index.jsp" class="navbar-brand tm-site-name">tanpeng.net</a>
+				<a href="#" class="navbar-brand tm-site-name">tanpeng.net</a>
 
 				<!-- navbar -->
 				<nav class="navbar tm-main-nav">
@@ -60,7 +60,7 @@ http://www.cssmoban.com/tm-488-classic
 							href="${pageContext.request.contextPath}/jsp/about.jsp"
 							class="nav-link">简历</a></li>
 						<li class="nav-item"><a
-							href="http://blog.tanpeng.net" target="_blank"
+							href="${pageContext.request.contextPath}/jsp/blog.jsp"
 							class="nav-link">博客</a></li>
 						<li class="nav-item"><a
 							href="${pageContext.request.contextPath}/jsp/contact.jsp"
@@ -77,8 +77,8 @@ http://www.cssmoban.com/tm-488-classic
 	<!-- <div class="tm-about-img-container"></div> -->
 
 	<section class="tm-section-2">
-	<div class="container-fluid-2" style="margin:0 auto; height:auto;width:auto; max-width: 1080px;max-height: 1920px;text-align:center;">
-		<img src="${pageContext.request.contextPath}/img/jianli2.png" alt="个人简历" title="点击图片下载简历" onclick='window.open("${pageContext.request.contextPath}/res/18-tanpeng-15886309250.doc")' style="width:100%;max-width: 1076px; height: auto; display: block; vertical-align:middle;text-align: center;"/>
+	<div class="container-fluid-2" style="margin:0 auto; height:auto;width:auto; max-width: 1076px;max-height: 1798px;text-align:center;">
+		<img src="${pageContext.request.contextPath}/img/jianli.jpg" alt="" style="width:100%;max-width: 1076px; height: auto; display: block; vertical-align:middle;text-align: center;"/>
 	</div>
 	</section>
 
@@ -87,7 +87,7 @@ http://www.cssmoban.com/tm-488-classic
 		<div class="row">
 			<div class="col-xs-12 tm-copyright-col">
 				<p class="tm-copyright-text" style="text-align: c">
-					Copyright 2016-2017 tanpeng.net &nbsp;&nbsp;&nbsp;湘ICP备16003539号-1
+					Copyright 2016 tanpeng.net &nbsp;&nbsp;&nbsp;湘ICP备16003539号-1
 				</p>
 			</div>
 		</div>

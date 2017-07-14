@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+﻿<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%
@@ -68,21 +68,19 @@
 			</div>
 		</div>
 	</div>
-
-	<div class="tm-home-img-container">
-		<img src="${pageContext.request.contextPath}/img/tm-home-img.jpg"
-			alt="Image" class="hidden-lg-up img-fluid" />
-	</div>
-
 	<section class="tm-section">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-xs-center">
 				<h2 class="tm-gold-text tm-title">Introduction</h2>
-				<p class="tm-subtitle">这里是tanpeng的个人网站，欢迎访问。里面主要包含简历、博客及联系方式等。</p>
+				<p class="tm-subtitle">The thing that matters is not whether you fail or not, but whether you try or not.</p>
 			</div>
 		</div>
-		<div class="row">
+		
+		<!-- row -->
+
+	<div class="row">
+
 			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
 
 				<div class="tm-content-box">
@@ -93,6 +91,8 @@
 					<p class="tm-margin-b-20">校级二等奖学金</p>
 					<p class="tm-margin-b-20">校级优秀团员</p>
 					<p class="tm-margin-b-20">优秀学生干部</p>
+					<p class="tm-margin-b-20">牛客网编程之星</p>
+					<p class="tm-margin-b-20">程序设计竞赛校赛第二名</p>
 					<a href="${pageContext.request.contextPath}/jsp/resume.jsp" target="_blank" class="tm-btn text-uppercase">查看更多</a>
 				</div>
 
@@ -104,9 +104,12 @@
 					<img
 						src="${pageContext.request.contextPath}/img/tm-img-310x180-2.jpg"
 						alt="Image" class="tm-margin-b-20 img-fluid" />
-					<h4 class="tm-margin-b-20 tm-gold-text">校内经历</h4>
-					<p class="tm-margin-b-20">班长/2015.3-至今</p>
-					<p class="tm-margin-b-20">班长/2015.3-至今</p>
+					<h4 class="tm-margin-b-20 tm-gold-text">个人经历</h4>
+					<p class="tm-margin-b-20">班长/入学-至今</p>
+					<p class="tm-margin-b-20">计算机学院14级素质提升班/2015.10-至今</p>
+					<p class="tm-margin-b-20">大班助（学生辅导员）/2016.9</p>
+					<p class="tm-margin-b-20">卓越团队成员/2017.3~2017.6</p>
+					<p class="tm-margin-b-20">饿了么/2017.6~至今</p>
 					<a href="${pageContext.request.contextPath}/jsp/resume.jsp" target="_blank" class="tm-btn text-uppercase">查看更多</a>
 				</div>
 
@@ -119,9 +122,11 @@
 						src="${pageContext.request.contextPath}/img/tm-img-310x180-3.jpg"
 						alt="Image" class="tm-margin-b-20 img-fluid" />
 					<h4 class="tm-margin-b-20 tm-gold-text">技能</h4>
-					<p class="tm-margin-b-20">熟练使用Java，有C/C++、Python等开发经验；</p>
-					<p class="tm-margin-b-20">熟练掌握Java Web编程</p>
-					<p class="tm-margin-b-20">掌握常用数据结构与算法；</p>
+					<p class="tm-margin-b-20">熟练掌握Java</p>
+					<p class="tm-margin-b-20">熟练掌握函数式编程</p>
+					<p class="tm-margin-b-20">掌握常用数据结构与算法</p>
+					<p class="tm-margin-b-20">掌握常用设计模式</p>
+					<p class="tm-margin-b-20">了解SOA</p>
 					<a href="${pageContext.request.contextPath}/jsp/resume.jsp" target="_blank" class="tm-btn text-uppercase">查看更多</a>
 				</div>
 
@@ -135,60 +140,43 @@
 						alt="Image" class="tm-margin-b-20 img-fluid" />
 					<h4 class="tm-margin-b-20 tm-gold-text">兴趣爱好</h4>
 					<p class="tm-margin-b-20">编程</p>
-					<p class="tm-margin-b-20">运动、健身</p>
-					<p class="tm-margin-b-20">电影、动漫</p>
+					<p class="tm-margin-b-20">最新的科技前沿知识</p>
+					<p class="tm-margin-b-20">运动、健身，特别是跑步</p>
+					<p class="tm-margin-b-20">电影、动漫，深爱海贼王</p>
 					<a href="${pageContext.request.contextPath}/jsp/resume.jsp" target="_blank" class="tm-btn text-uppercase">查看更多</a>
 				</div>
 
 			</div>
 		</div>
-		<!-- row -->
 
-		<div class="row tm-margin-t-big">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-				<div class="tm-2-col-left">
+<div class="row tm-margin-t-big">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+				<h1 class="tm-gold-text tm-title">关于我</h1><br/>
+　　我是谭鹏，就读湖南工业大学–计算机学院–计算机科学与技术专业，目前大三，对计算机相关知识有着浓厚兴趣。<br/>
+　　虽然我的名字特别容易重名，但拥有tanpeng.net这个域名的就我一个~<br/>
+　　至于技术方向，个人还是偏向于web后台研发，技术点的话，Java、C、C++、Python、PHP、Android、HTML、CSS、JS、SQL、JSP… 基本上都有所了解，但专攻的还是Java。<br/>
+　　作为一名合格计算机人，我对计算机相关知识一直都有着较为浓厚的兴趣，体现在几个方面：第一个是在所有计算机相关的专业课，我几乎都是90分以上，好几门还是专业第一。第二个是，我在课外会花很多时间学习计算机相关的知识。<br/>
+　　当然，我也不是一位只会技术的肥宅，大学至今一直担任所在班级的班长，并且组织过不少活动，带领班上同学收获过不少校级集体荣誉。同时我还特别喜欢跑步和健身，毕竟一个人只有全面发展才能适应这个复杂的社会嘛。<br/>
+　　马上就要步入社会了，期待在校招之际能够找到自己满意的工作。对于接下来的生活，我可是充满期待和信心呢。 <br/>
+　　目前在饿了么实习，负责数据库中间件相关的一些东西。<br/><br/>
 
-					<h3 class="tm-gold-text tm-title">${articleM.articleName }</h3>
-					<p class="tm-margin-b-30">${articleM.articleDesc }</p>
-					<img
-						src="${pageContext.request.contextPath}/img/${articleM.articlePic}"
-						alt="Image" class="tm-margin-b-40 img-fluid" />
-					<p class="m-b-2">${articleM.articleContent }</p>
-
-					<a href="#" class="tm-btn text-uppercase">阅读全文</a>
-
-				</div>
+　　如果你想找到我:<br/>
+　　个人邮箱:admin@tanpeng.net<br/>
+　　QQmail:613258200@qq.com<br/>
+　　163mail:tanpeg_net@163.com<br/>
 			</div>
 
-			<div class="copyrights">
-				Collect from <a href="http://www.cssmoban.com/" title="网站模板">网站模板</a>
-			</div>
 
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 col-xl-2">
 
-				<div class="tm-2-col-right">
+				<div class="tm-1-col-right">
 
 					<div class="tm-2-rows-md-swap">
-						<div class="tm-overflow-auto row tm-2-rows-md-down-2">
-							<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-								<h3 class="tm-gold-text tm-title">分类</h3>
-								<div
-									style="overflow: scroll;overflow-x: hidden;overflow-y:hidden;">
-									<nav>
-									<ul class="nav">
-										<c:forEach items="${categoryList }" var="categoryList"
-											varStatus="cate">
-											<li><a href="#" class="tm-text-link">${categoryList.categoryName }</a></li>
-										</c:forEach>
-									</ul>
-									</nav>
-								</div>
-							</div>
-							<!-- col -->
-
+						<div class="tm-overflow-auto row tm-1-rows-md-down-2">
 							<div
-								class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-xs-m-t">
-								<h3 class="tm-gold-text tm-title">相关链接</h3>
+								class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 tm-xs-m-t" style="align:center;">
+								<br/>
+								<h3 class="tm-gold-text tm-title">链接</h3>
 								<nav>
 								<ul class="nav">
 									<c:forEach items="${linkList }" var="linklist" varStatus="link">
@@ -198,37 +186,20 @@
 								</nav>
 							</div>
 						</div>
-						<div class="row tm-2-rows-md-down-1 tm-margin-t-mid">
-							<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-								<h3 class="tm-gold-text tm-title tm-margin-b-30">相关阅读</h3>
-
-								<c:forEach items="${articleXiangguanList }"
-									var="articleXiangguanList" varStatus="Slist">
-									<div class="media tm-related-post">
-										<div class="media-left media-middle">
-											<a href="#"> <img class="media-object"
-												src="${pageContext.request.contextPath}/img/${articleXiangguanList.articlePic}"
-												alt="Generic placeholder image" />
-											</a>
-										</div>
-										<div class="media-body">
-											<a href="#"><h4
-													class="media-heading tm-gold-text tm-margin-b-15">${articleXiangguanList.articleName }</h4></a>
-											<p class="tm-small-font tm-media-description">${articleXiangguanList.articleDesc }</p>
-										</div>
-									</div>
-								</c:forEach>
-
-							</div>
-						</div>
+						
 
 						<!-- col -->
 					</div>
 				</div>
 			</div>
 		</div>
+
 	</div>
 	<!-- row -->
+
+
+
+
 
 	</div>
 	</section>
